@@ -1,0 +1,95 @@
+.container {
+  width: 100%;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.img_container {
+  height: 240px;
+  width: 240px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+}
+
+.details {
+  display: flex;
+  line-height: 2rem;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4c87c7;
+  cursor: pointer;
+}
+
+.name:hover {
+  opacity: 0.8;
+}
+
+.tag {
+  background-color: #1b800a;
+  padding: 3px 6px;
+  display: inline-block;
+  border-radius: 10px;
+  color: white;
+}
+
+.description {
+  font-weight: 600;
+}
+
+.cancellation {
+  color: #1b800a;
+}
+
+.cancellation :first-child {
+  font-weight: 600;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+
+.rate-text {
+  font-weight: 600;
+}
+
+.rate {
+  background-color: #0f3580;
+  color: white;
+  padding: 3px 6px;
+  width: fit-content;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: end;
+}
+
+.note {
+  color: gray;
+  font-size: 0.9rem;
+  text-align: end;
+}
+
+.container button {
+  width: 200px;
+  height: 50px;
+  background-color: #2271c2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+}

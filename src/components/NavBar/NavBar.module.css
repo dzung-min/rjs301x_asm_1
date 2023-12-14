@@ -1,0 +1,30 @@
+.nav {
+  background-color: #0f3580;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.nav-header p {
+  font-size: 1.2rem;
+}
+
+.nav-header button {
+  margin-left: 15px;
+}
+
+.item-list {
+  display: flex;
+  gap: 30px;
+}

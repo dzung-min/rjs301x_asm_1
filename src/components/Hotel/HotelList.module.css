@@ -1,0 +1,16 @@
+.container {
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.container h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+}

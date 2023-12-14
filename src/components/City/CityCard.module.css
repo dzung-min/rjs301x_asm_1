@@ -1,0 +1,29 @@
+.card {
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card div {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.city-name,
+.city-subtext {
+  color: white;
+  font-weight: 500;
+}
+
+.city-name {
+  font-size: 2rem;
+}
+
+.city-subtext {
+  font-size: 1.2rem;
+}
